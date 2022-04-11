@@ -1,5 +1,6 @@
-package Bibliothéque;
+public class Manga extends Livre {
 
-public class Manga extends BD {
-
+  public Manga(){
+  }
+  public Manga(String titre,String auteur,double prix, int
 }
