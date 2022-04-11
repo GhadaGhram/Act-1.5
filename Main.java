@@ -14,10 +14,10 @@ public class Main {
 		b2.afficher();
 	    
 		Manga m1=new Manga("One piece","Eiichiro Oda",5.40,60);
-		m1.aficher;
+		m1.afficher();
 		
 		Manga m2=new Manga("Death Note","Tsugumi Oba",7.40,75);
-		m1.aficher;
+		m2.afficher();
 		
 		Roman r1=new Roman("Dora", "Dora",3.5,300, 0,null);
 		r1.afficher();
