@@ -1,7 +1,5 @@
-package Bibliothéque;
-
 public class BD extends Livre {
-boolean couleur;
+private boolean couleur;
 
 public BD() {
 	super();
