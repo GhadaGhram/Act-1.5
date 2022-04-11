@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class LivreRecette extends Livre {
 
 ArrayList<Recette> recettes = new ArrayList<>();
-public LivreRecette(String titre, String auteur, float prix, int nombreDePages) {
+public LivreRecette(String titre, String auteur, double prix, int nombreDePages) {
         super(titre, auteur, prix, nombreDePages);
     }
 
