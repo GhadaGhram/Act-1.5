@@ -1,5 +1,3 @@
-package Bibliothéque;
-
 public class Roman extends Livre {
 private int nbchapitres;
 private String description;
