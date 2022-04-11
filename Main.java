@@ -1,26 +1,23 @@
-package BibliothÈque;
-
-import java.util.spi.LocaleServiceProvider;
-
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Livre livre1=new Livre("Le petit prince", "St ExupÈry", 10.40, 50);
+	        Livre livre1=new Livre("Le petit prince", "St Exup√©ry", 10.40, 50);
 		livre1.afficher();
 		
 		Livre livre2=new Livre("Contes", "Grimm", 14.40, 254);
 		livre2.afficher();
-		
-		
+				
 		BD b1=new BD("Lucky Luke", "Morris", 14.40, 45, true);
 		b1.afficher();
 		
 		BD b2=new BD("Tintin", "Herge", 200.40, 45, false);
 		b2.afficher();
 	    
-		/*Manga m1=new Manga(null, null, null);
-		System.out.println(m1.toString());*/
+		Manga m1=new Manga("One piece","Eiichiro Oda",5.40,60);
+		m1.aficher;
+		
+		Manga m2=new Manga("Death Note","Tsugumi Oba",7.40,75);
+		m1.aficher;
 		
 		Roman r1=new Roman("Dora", "Dora",3.5,300, 0,null);
 		r1.afficher();
@@ -29,9 +26,9 @@ public class Main {
 		
 		LivreRecette lrc1=new LivreRecette("Marmiton","Philippe Etchebest", 15.98, 110);
 		lrc1.afficher();
-		Recette rc1=new Recette("Les p‚tes crues", "comment",3);
+		Recette rc1=new Recette("Les p√¢tes crues", "comment r√©aliser de d√©licieuses p√¢tes",3);
 		rc1.addAstuces("Ne pas les faire cuire.");
-		rc1.addEtapes("Sortir les p‚tes de leur emballage");
+		rc1.addEtapes("Sortir les p√¢tes de leur emballage");
 		lrc1.addRecette(rc1);
 	}
 
